@@ -1,0 +1,11 @@
+-r requirements.txt
+
+coverage
+isort
+flake8
+flake8-annotations-complexity
+flake8-annotations-coverage
+flake8-bugbear
+flake8-docstrings
+flake8-print
+tox
