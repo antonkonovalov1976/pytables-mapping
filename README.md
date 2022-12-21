@@ -7,7 +7,7 @@ Pytables-mapping - a simple mapping for pytables objects: tables, arrays, comple
 Inspired by Django ORM and [SimpleTable](https://www.pytables.org/cookbook/simple_table.html)
 
 
-##Installation
+## Installation
 
 Install and update using `pip`:
 
@@ -15,13 +15,13 @@ Install and update using `pip`:
 pip install git+https://github.com/antonkonovalov1976/pytables-mapping.git -U
 ```
 
-##Requirements
+## Requirements
 
 * Python 3.6+
 * A supported version of PyTables 3.7
 
 
-##A simple example:
+## A simple example:
 ```python
 import numpy as np
 import pytables_mapping as mapping
@@ -44,7 +44,7 @@ if __name__ == '__main__':
         print(store.semi_primes.read())
 ```
 
-##N.B.
+## N.B.
 
 To choose correct compression options see:
 http://www.pytables.org/usersguide/libref/helper_classes.html#the-filters-class
@@ -53,7 +53,7 @@ and benchmarks:
 http://alimanfoo.github.io/2016/09/21/genotype-compression-benchmark.html
 
 
-##LINKS
+## LINKS
 * License: [MIT](https://github.com/antonkonovalov1976/pytables-mapping/blob/master/LICENSE)
 * Code: https://github.com/antonkonovalov1976/pytables-mapping
 * Issue tracker: https://github.com/antonkonovalov1976/pytables-mapping/issues
