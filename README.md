@@ -37,11 +37,11 @@ class PythagoreanTriplesTable(mapping.Table):
 
 class MainStore(mapping.HDF5Store):
     STORE_VERSION = 1
-    semi_primes = PythagoreanTriplesTable()
+    pythagorean_triples = PythagoreanTriplesTable()
 
 if __name__ == '__main__':
     with MainStore('data.h5') as store:
-        print(store.semi_primes.read())
+        print(store.pythagorean_triples.read())
 ```
 
 ## N.B.
